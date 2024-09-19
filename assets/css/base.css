@@ -1,0 +1,545 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* =============================================
+   UNIVERSAL ELEMENTS
+   ============================================= */
+
+* {
+	box-sizing: border-box;
+	text-rendering: optimizelegibility;
+	}
+
+body {
+    background-color: #fafafa;
+    color: #222;
+    margin: 0 auto;
+    padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 145%;
+    }
+
+p {
+	font-family: "EB Garamond", serif;
+    line-height: 145%;
+    font-size: 120%;
+	}
+
+main {
+	margin: 0 1.5rem;
+	position: relative;
+	}
+
+section {
+	max-width: 65rem;
+	margin: 0 auto;
+	}
+
+section.text, article {
+	max-width: 65rem;
+	margin: 1.5rem auto;
+	}
+
+article { margin: 0 auto; }
+
+.content {
+	max-width: 65rem;
+	margin: 0 auto;
+	}
+
+hr {
+    border: none;
+    height: 1px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin: 1em 0;
+	}
+
+.line {
+	width: 100%;
+	height: 1px;
+	display: block;
+	border-top: 1px solid #000000;
+	margin-bottom: 1.5rem;
+	}
+  
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0
+	}
+
+
+/*  =============================================
+    TYPE
+    ============================================= */
+
+a { text-decoration: none; color: blue; }
+a:hover { color: blue; }
+p a { text-decoration: none; border-bottom: 1px solid rgba(0,0,0,0); }
+p a:hover { border-bottom-color: blue; }
+
+h1, h2, h3, h4, h5 { font-size: 1rem; font-weight: 600; }
+
+section.text p, section.text blockquote, section.text ul {
+    margin: 1.1em 0;
+	max-width: 45rem;
+    -webkit-hyphenate-limit-after: 4;
+    -webkit-hyphenate-limit-before: 2;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphens: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+	font-variant-numeric: oldstyle-nums;
+	-moz-font-feature-settings: "onum";
+	-ms-font-feature-settings: "onum";
+	-webkit-font-feature-settings: "onum";
+	font-feature-settings: "onum";
+	}
+
+section.text > h1 { margin-top: 0; }
+
+section.text h2,
+section.courses h2 {
+	font-size: 2rem !important;
+	font-weight: normal;
+	font-family: "EB Garamond", serif;
+    line-height: 120%;
+	color: gray;
+	}
+
+section.text p + h2,
+section.courses p + h2 {
+	margin-top: 1.5em;
+	}
+
+em, i { font-style: italic; }
+	
+strong { font-weight: 600; }
+
+blockquote { text-indent: -0.3em; }
+
+abbr, .smcp {
+	font-variant-caps: all-small-caps;
+	-moz-font-feature-settings: "c2sc", "smcp";
+	-ms-font-feature-settings: "c2sc", "smcp";
+	-webkit-font-feature-settings: "c2sc", "smcp";
+	font-feature-settings: "c2sc", "smcp";
+	}
+
+  
+/*  =============================================
+    HEADER
+    ============================================= */
+    
+header {
+	margin: 1rem 1.5rem;
+	position: relative;
+	}
+
+header .content { text-align: center; }
+
+header #name {
+	margin: 0 auto;
+	display: block;
+	color: #222;
+	border: 0;
+	text-decoration: none;
+	}
+
+header #name:hover { color: blue; }
+
+header #name .name { 
+	font-size: 2rem;
+	font-weight: normal;
+	font-family: "EB Garamond", serif;
+    line-height: 120%;
+	display: inline-block;
+	}
+
+header #name .desc {
+	padding-top: 0.2rem;
+	display: block;
+	font-size: 0.7rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	}
+
+header nav {
+	margin: 1rem auto 0;
+	padding-top: 1rem;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	}
+
+header nav ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 0.05rem;
+	}
+
+header nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 0; }
+header nav ul li:last-child { margin-right: 0; }
+header nav ul li a { color: #222; border: 0; text-decoration: none; padding-bottom: 4px; }
+header nav ul li a.active { color: blue; border-bottom: 1px solid blue; }
+header nav ul li a.active:hover { border-bottom: 1px solid blue; }
+
+/*  =============================================
+    FOOTER
+    ============================================= */
+
+footer {
+    color: gray;
+	margin: 4rem 1.5rem 1.5rem 1.5rem;
+	}
+
+footer .content {
+	border-top: 1px solid rgba(0,0,0,0.1);
+	padding: 1.5rem 0;
+	}
+
+footer .copyright {
+    line-height: 1.4;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-weight: 400;
+	}
+
+/*  =============================================
+    ALL PAGES
+    ============================================= */
+
+.hero { margin-bottom: 1.5rem; }
+.hero .content { padding-bottom: 1.5rem; }
+
+.hero .content h1.title,
+.projectholder a span.title {
+	font-size: 3rem;
+	font-weight: normal;
+	font-family: "EB Garamond", serif;
+    line-height: 120%;
+	}
+
+.hero .content h1.title a { color: #222; }
+.hero .content h1.title a:hover { color: blue; }
+
+.hero .content p.subtitle,
+.projectholder a span.description {
+	font-size: 3rem;
+	font-weight: normal;
+	font-family: "EB Garamond", serif;
+    line-height: 120%;
+	color: gray;
+	}
+
+/*  =============================================
+    HOMEPAGE
+    ============================================= */
+
+.hero img.me {
+	width: 100%;
+	display: block;
+	margin: 0 auto 4rem;
+	}
+
+/*  =============================================
+    TEACHING
+    ============================================= */
+
+div.projectholder { margin: 4rem 0; }
+
+div.projectholder a {
+	display: block;
+	color: #fff;
+	padding: 6rem 1.5rem;
+	margin: 0 auto;
+	transition: all 0.6s;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	}
+
+	/* PROJECT: WEIMAR ON THE PACIFIC */
+
+	#weimar-on-the-pacific a { background-image:url("../../assets/img/cacti.jpg"); }
+
+div.projectholder a:hover {
+	background-size: 120%;
+	box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	-moz-transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	}
+
+div.projectholder a > * {
+	max-width: 65rem;
+	margin: 0 auto;
+	}
+
+div.projectholder a span.title {
+	color: #fff !important;
+	margin-bottom: 0.25em;
+	display: block;
+	text-shadow: 0 0 10px rgba(0,0,0,0.75);
+	}
+
+div.projectholder a span.description {
+	color: rgba(255,255,255,0.8) !important;
+	font-size: 2rem !important;
+	display: block;
+	text-shadow: 0 0 10px rgba(0,0,0,0.75);
+	}
+
+.courseswrapper .hero .content { padding-top: 2rem !important; }
+
+section.courses { margin: 0 auto; }
+
+.item + .item { margin-top: 3rem !important; }
+
+ul.tablelist {
+	list-style: none;
+	margin: 1.1rem 0 0 0;
+	padding: 0;
+	}
+
+ul.tablelist li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+ul.tablelist li p {
+	display: none;
+	font-size: 100%;
+	color: gray;
+	margin-top: 0.4rem;
+	max-width: 45rem;
+	}
+
+ul.tablelist li {
+	font-family: "EB Garamond", serif;
+    line-height: 145%;
+    font-size: 120%;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	text-decoration: none;
+	display: block;
+	padding: 0.5rem 0 0.6rem;
+	}
+
+ul.tablelist li:last-child { border-bottom: none; }
+
+ul.tablelist li span.course {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+ul.tablelist li.unfold b::after {
+	content: "\25be";
+	display: inline-block;
+	position: relative;
+	margin: 0 0 0 0.25rem;
+	color: gray;
+	opacity: 0.5;
+}
+
+ul.tablelist li.fold b::after {
+	content: "\25be";
+	display: inline-block;
+	position: relative;
+	margin: 0 0 0 0.25rem;
+	color: blue;
+	opacity: 1;
+	transform: rotate(180deg);
+	top: 2px;
+}
+
+ul.tablelist li.unfold,
+ul.tablelist li.fold {
+	cursor: pointer;
+}
+
+ul.tablelist b.label { display: block; }
+ul.tablelist em.detail {
+	display: none;
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 145%;
+	font-style: normal;
+	color: gray;
+	opacity: 0.5;
+	}
+
+ul.tablelist li.unfold:hover b.label,
+ul.tablelist li.unfold:hover em.detail,
+ul.tablelist li.unfold:hover b::after,
+ul.tablelist li.fold:hover b.label,
+ul.tablelist li.fold:hover em.detail,
+ul.tablelist li.fold:hover b::after,
+ul.tablelist li.fold b.label,
+ul.tablelist li.fold em.detail {
+	color: blue;
+	opacity: 1;
+}
+
+ul.tablelist li.unfold b.label a:hover,
+ul.tablelist li.unfold b.label:hover,
+ul.tablelist li.fold b.label a:hover,
+ul.tablelist li.fold b.label:hover {
+	color: blue;
+}
+
+ul.tablelist li b.label a:after {
+	content: '\203A';
+	padding-left: 0.25em;
+}
+
+/*  =============================================
+    ADMIN BAR
+    ============================================= */
+
+.admin {
+	margin-top: 1.5rem;
+	padding: 1.5rem 1.5rem 0 0;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.admin a {
+	color: #da5a47;
+	font-size: 80%;
+	font-weight: 600;
+	padding: 0.4rem 0.8rem;
+	border: 2px solid #da5a47;
+	border-radius: 5px;
+}
+
+.admin a + a { margin-left: 0.2rem; }
+
+.admin a.action {
+	color: #fff;
+	background: #da5a47;
+	border-color: #da5a47;
+}
+
+.admin a:hover,
+.admin a.action:hover {
+	color: #fff;
+	background: #bf503f;
+	border-color: #bf503f;
+}
+
+.admin a.action:before,
+.admin a.cp:before {
+	display: inline-block;
+	padding: 0 0.4em 0 0;
+	margin: -0.2em 0 0 -0.2em;
+	-webkit-font-smoothing: antialiased;
+	font: normal 16px/1 'Genericons';
+	vertical-align: middle;
+}
+
+.admin a.cp:before { content: '\f445'; }
+.admin a.edit:before { content: '\f411'; }
+.admin a.add:before { content: '\f510'; }
+
+
+/*  =============================================
+    MEDIA QUERIES
+    ============================================= */
+
+@media (min-width: 65rem) {
+	.line {
+		width: 4rem;
+		}
+	header { margin: 3rem 1.5rem; }
+	header .content {
+		text-align: left;
+		display: flex;
+		align-items: center;
+		}
+	header #name { float: left; width: 50%; }
+	header nav {
+		width: 50%;
+		margin: 0 auto !important;
+		border: 0 !important;
+		padding: 0 !important;
+		}
+	header nav ul { float: right; }
+	.hero .content { padding: 4rem 0; }
+	section.courses ul.tablelist em.detail { display: block; }
+	.admin {
+		position: fixed;
+		top: 0;
+		right: 0;
+		padding-top: 0;
+		border-top: 0;
+		text-align: left;
+		background-color: rgba(250, 250, 250, 0.85);
+		box-shadow: 0 0 30px 10px #fafafa;
+		}
+	section.text .admin {
+		position: relative !important;
+		}
+	}
