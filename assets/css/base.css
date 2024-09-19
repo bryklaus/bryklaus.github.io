@@ -185,31 +185,18 @@ header {
 
 header .content { text-align: center; }
 
-header #name {
+header .logo {
 	margin: 0 auto;
 	display: block;
 	color: #222;
 	border: 0;
 	text-decoration: none;
-	}
-
-header #name:hover { color: blue; }
-
-header #name .name { 
-	font-size: 2rem;
+	font-size: 18px;
 	font-weight: normal;
 	font-family: "Lora", serif;
     line-height: 120%;
 	display: inline-block;
-	}
-
-header #name .desc {
-	padding-top: 0.2rem;
-	display: block;
-	font-size: 0.7rem;
-	font-weight: 500;
 	text-transform: uppercase;
-	letter-spacing: 0.05rem;
 	}
 
 header nav {
@@ -223,8 +210,7 @@ header nav ul {
 	margin: 0 auto;
 	padding: 0;
 	display: inline-block;
-	font-size: 0.7rem;
-	text-transform: uppercase;
+	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 0.05rem;
 	}
