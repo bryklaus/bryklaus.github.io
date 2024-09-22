@@ -74,11 +74,10 @@ main {
 }
 
 hr {
-	border: none;
 	height: 1px;
 	width: 50px;
 	border-top: 3px solid #000;
-	margin: 0 0 0 4rem;
+	margin: 0 0 4rem 0;
 }
 
 .line {
