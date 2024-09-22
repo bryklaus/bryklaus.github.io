@@ -70,12 +70,8 @@ main,
 article,
 section {
 	margin: 0 auto;
+	position: relative;
 	max-width: 100rem;
-}
-
-.content {
-	max-width: 100rem;
-	margin: 0 auto;
 }
 
 hr {
@@ -91,17 +87,6 @@ hr {
 	display: block;
 	border-top: 1px solid #000000;
 	margin-bottom: 1.5rem;
-}
-
-.clearfix:after {
-	clear: both;
-	content: ' ';
-	display: block;
-	font-size: 0;
-	line-height: 0;
-	visibility: hidden;
-	width: 0;
-	height: 0
 }
 
 
