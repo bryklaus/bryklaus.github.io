@@ -67,9 +67,7 @@ p {
 }
 
 nav,
-main,
-article,
-section {
+main {
 	margin: 0 auto;
 	position: relative;
 	max-width: 100rem;
