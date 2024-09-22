@@ -126,7 +126,7 @@ section.text ul {
 	margin: 1.1em 0;
 	font-size: 100%;
 	font-weight: 300;
-	line-height: 120%;
+	line-height: 145%;
 	-webkit-hyphenate-limit-after: 4;
 	-webkit-hyphenate-limit-before: 2;
 	-webkit-hyphenate-limit-lines: 2;
@@ -146,9 +146,10 @@ section.text>h1 {
 
 section.text h2,
 section.courses h2 {
+	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	line-height: 120%;
+	line-height: 145%;
 	margin-bottom: 1.5rem;
 }
 
