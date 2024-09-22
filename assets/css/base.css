@@ -595,37 +595,12 @@ ul.tablelist li b.label a:after {
     MEDIA QUERIES
     ============================================= */
 
-/* @media (min-width: 100rem) {
-	.line {
-		width: 4rem;
-		}
-	header { margin: 3rem 1.5rem; }
+@media (min-width: 100rem) {
+	.line { width: 4rem; }
 	header .content {
 		text-align: left;
 		display: flex;
 		align-items: center;
 		}
-	header #name { float: left; width: 50%; }
-	header nav {
-		width: 50%;
-		margin: 0 auto !important;
-		border: 0 !important;
-		padding: 0 !important;
-		}
-	header nav ul { float: right; }
-	.hero .content { padding: 4rem 0; }
 	section.courses ul.tablelist em.detail { display: block; }
-	.admin {
-		position: fixed;
-		top: 0;
-		right: 0;
-		padding-top: 0;
-		border-top: 0;
-		text-align: left;
-		background-color: rgba(250, 250, 250, 0.85);
-		box-shadow: 0 0 30px 10px #fafafa;
-		}
-	section.text .admin {
-		position: relative !important;
-		}
-	} */
+	}
