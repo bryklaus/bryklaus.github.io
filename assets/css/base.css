@@ -118,9 +118,6 @@ h5 {
 section:before {
 	content: "";
 	background: #000;
-	position: absolute;
-	top: 0;
-	left: 0;
 	height: 4px;
 	width: 50px;
 	margin-bottom: 2rem;
