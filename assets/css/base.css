@@ -70,7 +70,7 @@ nav,
 main {
 	margin: 0 auto;
 	position: relative;
-	max-width: 100rem;
+	max-width: 65rem;
 }
 
 hr {
@@ -176,7 +176,7 @@ abbr,
     ============================================= */
 
 header {
-	max-width: 100rem;
+	max-width: 65rem;
 	margin: 5rem auto 18rem auto;
 	position: relative;
 }
@@ -197,14 +197,14 @@ header .logo span {
 }
 
 #blurb {
-	max-width: 65rem;
-	margin: 0 auto;
+	margin: 0 auto 8rem;
 	position: relative;
 }
 
 #blurb p {
+	max-width: 45rem;
 	font-size: 2rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 nav {
@@ -445,7 +445,7 @@ ul.tablelist li b.label a:after {
     MEDIA QUERIES
     ============================================= */
 
-/* @media (min-width: 100rem) {
+/* @media (min-width: 65rem) {
 	.line { width: 4rem; }
 	header .content {
 		text-align: left;
