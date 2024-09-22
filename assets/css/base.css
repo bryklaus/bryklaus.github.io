@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -18,25 +86,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -77,12 +164,15 @@ section {
 	margin: 0 auto;
 }
 
-section.text, article {
+section.text,
+article {
 	max-width: 100rem;
 	margin: 1.5rem auto;
 }
 
-article { margin: 0 auto; }
+article {
+	margin: 0 auto;
+}
 
 .content {
 	max-width: 100rem;
@@ -92,7 +182,7 @@ article { margin: 0 auto; }
 hr {
 	border: none;
 	height: 1px;
-	border-top: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	margin: 1em 0;
 }
 
@@ -102,8 +192,8 @@ hr {
 	display: block;
 	border-top: 1px solid #000000;
 	margin-bottom: 1.5rem;
-	}
-  
+}
+
 .clearfix:after {
 	clear: both;
 	content: ' ';
@@ -124,15 +214,26 @@ a,
 p a {
 	color: #000;
 	text-decoration: none;
-	border-bottom: 1px solid rgba(0,0,0,0);
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 a:hover,
-p a:hover { opacity: 0.5; }
+p a:hover {
+	opacity: 0.5;
+}
 
-h1, h2, h3, h4, h5 { font-size: 1rem; font-weight: 600; }
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: 1rem;
+	font-weight: 600;
+}
 
-section.text p, section.text blockquote, section.text ul {
+section.text p,
+section.text blockquote,
+section.text ul {
 	margin: 1.1em 0;
 	max-width: 45rem;
 	-webkit-hyphenate-limit-after: 4;
@@ -148,29 +249,39 @@ section.text p, section.text blockquote, section.text ul {
 	font-feature-settings: "onum";
 }
 
-section.text > h1 { margin-top: 0; }
+section.text>h1 {
+	margin-top: 0;
+}
 
 section.text h2,
 section.courses h2 {
 	font-size: 2rem !important;
 	font-weight: normal;
 	font-family: "Jost", serif;
-    line-height: 120%;
+	line-height: 120%;
 	color: gray;
-	}
+}
 
-section.text p + h2,
-section.courses p + h2 {
+section.text p+h2,
+section.courses p+h2 {
 	margin-top: 1.5em;
-	}
+}
 
-em, i { font-style: italic; }
-	
-strong { font-weight: 600; }
+em,
+i {
+	font-style: italic;
+}
 
-blockquote { text-indent: -0.3em; }
+strong {
+	font-weight: 600;
+}
 
-abbr, .smcp {
+blockquote {
+	text-indent: -0.3em;
+}
+
+abbr,
+.smcp {
 	font-variant-caps: all-small-caps;
 	-moz-font-feature-settings: "c2sc", "smcp";
 	-ms-font-feature-settings: "c2sc", "smcp";
@@ -178,11 +289,11 @@ abbr, .smcp {
 	font-feature-settings: "c2sc", "smcp";
 }
 
-  
+
 /*  =============================================
     HEADER
     ============================================= */
-    
+
 header {
 	max-width: 100rem;
 	margin: 6rem 1.5rem;
@@ -208,7 +319,7 @@ header .logo span {
 nav {
 	margin: 1rem auto 0;
 	padding-top: 1rem;
-	border-top: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -221,11 +332,31 @@ nav ul {
 	letter-spacing: 0.05rem;
 }
 
-nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 0; }
-nav ul li:last-child { margin-right: 0; }
-nav ul li a { color: #000; border: 0; text-decoration: none; padding-bottom: 4px; }
-nav ul li a.active { color: blue; border-bottom: 1px solid blue; }
-nav ul li a.active:hover { border-bottom: 1px solid blue; }
+nav ul li {
+	display: inline-block;
+	margin-right: 1.5rem;
+	padding-bottom: 0;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #000;
+	border: 0;
+	text-decoration: none;
+	padding-bottom: 4px;
+}
+
+nav ul li a.active {
+	color: blue;
+	border-bottom: 1px solid blue;
+}
+
+nav ul li a.active:hover {
+	border-bottom: 1px solid blue;
+}
 
 /*  =============================================
     FOOTER
@@ -237,7 +368,7 @@ footer {
 }
 
 footer .content {
-	border-top: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 1.5rem 0;
 }
 
@@ -251,34 +382,46 @@ footer .copyright {
     ALL PAGES
     ============================================= */
 
-.hero { margin-bottom: 1.5rem; }
-.hero .content { padding-bottom: 1.5rem; }
+.hero {
+	margin-bottom: 1.5rem;
+}
+
+.hero .content {
+	padding-bottom: 1.5rem;
+}
 
 .hero .content h1.title,
 .projectholder a span.title {
 	font-size: 3rem;
 	font-weight: normal;
 	font-family: "Jost", serif;
-    line-height: 120%;
-	}
+	line-height: 120%;
+}
 
-.hero .content h1.title a { color: #000; }
-.hero .content h1.title a:hover { color: blue; }
+.hero .content h1.title a {
+	color: #000;
+}
+
+.hero .content h1.title a:hover {
+	color: blue;
+}
 
 .hero .content p.subtitle,
 .projectholder a span.description {
 	font-size: 3rem;
 	font-weight: normal;
 	font-family: "Jost", serif;
-    line-height: 120%;
+	line-height: 120%;
 	color: gray;
-	}
+}
 
 /*  =============================================
     TEACHING
     ============================================= */
 
-div.projectholder { margin: 4rem 0; }
+div.projectholder {
+	margin: 4rem 0;
+}
 
 div.projectholder a {
 	display: block;
@@ -289,11 +432,13 @@ div.projectholder a {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
-	}
+}
 
-	/* PROJECT: WEIMAR ON THE PACIFIC */
+/* PROJECT: WEIMAR ON THE PACIFIC */
 
-	#weimar-on-the-pacific a { background-image:url("../../assets/img/cacti.jpg"); }
+#weimar-on-the-pacific a {
+	background-image: url("../../assets/img/cacti.jpg");
+}
 
 div.projectholder a:hover {
 	background-size: 120%;
@@ -303,44 +448,50 @@ div.projectholder a:hover {
 	-webkit-transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	-moz-transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	}
+}
 
-div.projectholder a > * {
+div.projectholder a>* {
 	max-width: 100rem;
 	margin: 0 auto;
-	}
+}
 
 div.projectholder a span.title {
 	color: #fff !important;
 	margin-bottom: 0.25em;
 	display: block;
-	text-shadow: 0 0 10px rgba(0,0,0,0.75);
-	}
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
 
 div.projectholder a span.description {
-	color: rgba(255,255,255,0.8) !important;
+	color: rgba(255, 255, 255, 0.8) !important;
 	font-size: 2rem !important;
 	display: block;
-	text-shadow: 0 0 10px rgba(0,0,0,0.75);
-	}
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
 
-.courseswrapper .hero .content { padding-top: 2rem !important; }
+.courseswrapper .hero .content {
+	padding-top: 2rem !important;
+}
 
-section.courses { margin: 0 auto; }
+section.courses {
+	margin: 0 auto;
+}
 
-.item + .item { margin-top: 3rem !important; }
+.item+.item {
+	margin-top: 3rem !important;
+}
 
 ul.tablelist {
 	list-style: none;
 	margin: 1.1rem 0 0 0;
 	padding: 0;
-	}
+}
 
 ul.tablelist li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	}
+}
 
 ul.tablelist li p {
 	display: none;
@@ -348,31 +499,33 @@ ul.tablelist li p {
 	color: gray;
 	margin-top: 0.4rem;
 	max-width: 45rem;
-	}
+}
 
 ul.tablelist li {
 	font-family: "Jost", serif;
-    line-height: 145%;
-    font-size: 120%;
-	border-bottom: 1px solid rgba(0,0,0,0.1);
+	line-height: 145%;
+	font-size: 120%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	text-decoration: none;
 	display: block;
 	padding: 0.5rem 0 0.6rem;
-	}
+}
 
-ul.tablelist li:last-child { border-bottom: none; }
+ul.tablelist li:last-child {
+	border-bottom: none;
+}
 
 ul.tablelist li span.course {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: baseline;
-    -moz-align-items: baseline;
-    -ms-align-items: baseline;
-    align-items: baseline;
-    justify-content: space-between;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: baseline;
+	-moz-align-items: baseline;
+	-ms-align-items: baseline;
+	align-items: baseline;
+	justify-content: space-between;
 }
 
 ul.tablelist li.unfold b::after {
@@ -400,16 +553,19 @@ ul.tablelist li.fold {
 	cursor: pointer;
 }
 
-ul.tablelist b.label { display: block; }
+ul.tablelist b.label {
+	display: block;
+}
+
 ul.tablelist em.detail {
 	display: none;
 	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    line-height: 145%;
+	font-size: 18px;
+	line-height: 145%;
 	font-style: normal;
 	color: gray;
 	opacity: 0.5;
-	}
+}
 
 ul.tablelist li.unfold:hover b.label,
 ul.tablelist li.unfold:hover em.detail,
