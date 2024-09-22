@@ -124,6 +124,9 @@ section.text p,
 section.text blockquote,
 section.text ul {
 	margin: 1.1em 0;
+	font-size: 100%;
+	font-weight: 300;
+	line-height: 120%;
 	-webkit-hyphenate-limit-after: 4;
 	-webkit-hyphenate-limit-before: 2;
 	-webkit-hyphenate-limit-lines: 2;
@@ -143,9 +146,10 @@ section.text>h1 {
 
 section.text h2,
 section.courses h2 {
-	font-size: 2rem !important;
-	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	line-height: 120%;
+	margin-bottom: 1.5rem;
 }
 
 section.text p+h2,
@@ -211,7 +215,7 @@ header .logo span {
 	max-width: 45rem;
 	font-size: 2rem;
 	font-weight: 500;
-	line-height: 140%;
+	line-height: 120%;
 }
 
 nav {
