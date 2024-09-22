@@ -49,23 +49,23 @@ table {
 * {
 	box-sizing: border-box;
 	text-rendering: optimizelegibility;
-	}
+}
 
 body {
-    background-color: #f2e7e4;
-    color: #000;
-    margin: 0 auto;
-    padding: 0;
+	background-color: #f2e7e4;
+	color: #000;
+	margin: 0 auto;
+	padding: 0;
 	font-family: "Jost", serif;
-    font-size: 18px;
-    line-height: 145%;
-    }
+	font-size: 18px;
+	line-height: 145%;
+}
 
 p {
 	font-family: "Jost", serif;
-    line-height: 145%;
-    font-size: 120%;
-	}
+	line-height: 145%;
+	font-size: 120%;
+}
 
 main {
 	margin: 0 1.5rem;
@@ -73,19 +73,19 @@ main {
 	}
 
 section {
-	max-width: 65rem;
+	max-width: 100rem;
 	margin: 0 auto;
 	}
 
 section.text, article {
-	max-width: 65rem;
+	max-width: 100rem;
 	margin: 1.5rem auto;
 	}
 
 article { margin: 0 auto; }
 
 .content {
-	max-width: 65rem;
+	max-width: 100rem;
 	margin: 0 auto;
 	}
 
@@ -128,20 +128,20 @@ p a:hover { border-bottom-color: blue; }
 h1, h2, h3, h4, h5 { font-size: 1rem; font-weight: 600; }
 
 section.text p, section.text blockquote, section.text ul {
-    margin: 1.1em 0;
+	margin: 1.1em 0;
 	max-width: 45rem;
-    -webkit-hyphenate-limit-after: 4;
-    -webkit-hyphenate-limit-before: 2;
-    -webkit-hyphenate-limit-lines: 2;
-    -webkit-hyphens: auto;
-    word-break: break-word;
-    word-wrap: break-word;
+	-webkit-hyphenate-limit-after: 4;
+	-webkit-hyphenate-limit-before: 2;
+	-webkit-hyphenate-limit-lines: 2;
+	-webkit-hyphens: auto;
+	word-break: break-word;
+	word-wrap: break-word;
 	font-variant-numeric: oldstyle-nums;
 	-moz-font-feature-settings: "onum";
 	-ms-font-feature-settings: "onum";
 	-webkit-font-feature-settings: "onum";
 	font-feature-settings: "onum";
-	}
+}
 
 section.text > h1 { margin-top: 0; }
 
@@ -171,7 +171,7 @@ abbr, .smcp {
 	-ms-font-feature-settings: "c2sc", "smcp";
 	-webkit-font-feature-settings: "c2sc", "smcp";
 	font-feature-settings: "c2sc", "smcp";
-	}
+}
 
   
 /*  =============================================
@@ -179,10 +179,10 @@ abbr, .smcp {
     ============================================= */
     
 header {
-	max-width: 65rem;
+	max-width: 100rem;
 	margin: 1.5rem 1.5rem;
 	position: relative;
-	}
+}
 
 header .logo {
 	display: block;
@@ -193,7 +193,7 @@ header .logo {
 	height: 100px;
 	background-color: #000;
 	text-decoration: none;
-	}
+}
 
 header .logo span {
 	display: none !important;
@@ -203,7 +203,7 @@ nav {
 	margin: 1rem auto 0;
 	padding-top: 1rem;
 	border-top: 1px solid rgba(0,0,0,0.1);
-	}
+}
 
 nav ul {
 	list-style: none;
@@ -213,7 +213,7 @@ nav ul {
 	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 0.05rem;
-	}
+}
 
 nav ul li { display: inline-block; margin-right: 1.5rem; padding-bottom: 0; }
 nav ul li:last-child { margin-right: 0; }
@@ -226,22 +226,20 @@ nav ul li a.active:hover { border-bottom: 1px solid blue; }
     ============================================= */
 
 footer {
-    color: gray;
+	color: gray;
 	margin: 4rem 1.5rem 1.5rem 1.5rem;
-	}
+}
 
 footer .content {
 	border-top: 1px solid rgba(0,0,0,0.1);
 	padding: 1.5rem 0;
-	}
+}
 
 footer .copyright {
-    line-height: 1.4;
-	font-size: 0.7rem;
-	text-transform: uppercase;
-	letter-spacing: 0.05rem;
-	font-weight: 400;
-	}
+	line-height: 1.4;
+	font-size: 1rem;
+	font-weight: 100;
+}
 
 /*  =============================================
     ALL PAGES
@@ -302,7 +300,7 @@ div.projectholder a:hover {
 	}
 
 div.projectholder a > * {
-	max-width: 65rem;
+	max-width: 100rem;
 	margin: 0 auto;
 	}
 
@@ -435,7 +433,7 @@ ul.tablelist li b.label a:after {
     MEDIA QUERIES
     ============================================= */
 
-/* @media (min-width: 65rem) {
+/* @media (min-width: 100rem) {
 	.line {
 		width: 4rem;
 		}
