@@ -70,31 +70,31 @@ p {
 main {
 	margin: 0 1.5rem;
 	position: relative;
-	}
+}
 
 section {
 	max-width: 100rem;
 	margin: 0 auto;
-	}
+}
 
 section.text, article {
 	max-width: 100rem;
 	margin: 1.5rem auto;
-	}
+}
 
 article { margin: 0 auto; }
 
 .content {
 	max-width: 100rem;
 	margin: 0 auto;
-	}
+}
 
 hr {
-    border: none;
-    height: 1px;
-    border-top: 1px solid rgba(0,0,0,0.1);
-    margin: 1em 0;
-	}
+	border: none;
+	height: 1px;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	margin: 1em 0;
+}
 
 .line {
 	width: 100%;
@@ -105,25 +105,30 @@ hr {
 	}
   
 .clearfix:after {
-    clear: both;
-    content: ' ';
-    display: block;
-    font-size: 0;
-    line-height: 0;
-    visibility: hidden;
-    width: 0;
-    height: 0
-	}
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
 
 
 /*  =============================================
     TYPE
     ============================================= */
 
-a { text-decoration: none; color: blue; }
-a:hover { color: blue; }
-p a { text-decoration: none; border-bottom: 1px solid rgba(0,0,0,0); }
-p a:hover { border-bottom-color: blue; }
+a,
+p a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+a:hover,
+p a:hover { opacity: 0.5; }
 
 h1, h2, h3, h4, h5 { font-size: 1rem; font-weight: 600; }
 
@@ -180,13 +185,13 @@ abbr, .smcp {
     
 header {
 	max-width: 100rem;
-	margin: 4rem 1.5rem;
+	margin: 6rem 1.5rem;
 	position: relative;
 }
 
 header .logo {
 	display: block;
-	margin-bottom: 35rem;
+	margin-bottom: 20rem;
 	padding: 0;
 	border: 0;
 	width: 100px;
@@ -228,7 +233,7 @@ nav ul li a.active:hover { border-bottom: 1px solid blue; }
 
 footer {
 	color: gray;
-	margin: 4rem 1.5rem 1.5rem 1.5rem;
+	margin: 6rem 1.5rem 1.5rem 1.5rem;
 }
 
 footer .content {
