@@ -115,6 +115,11 @@ h5 {
 	font-weight: 600;
 }
 
+section.text {
+	column-count: 2;
+	column-gap: 3rem;
+}
+
 section.text p,
 section.text blockquote,
 section.text ul {
@@ -177,7 +182,7 @@ abbr,
 
 header {
 	max-width: 65rem;
-	margin: 5rem auto 18rem auto;
+	margin: 5rem auto 20rem auto;
 	position: relative;
 }
 
@@ -198,7 +203,7 @@ header .logo span {
 
 #blurb {
 	max-width: 65rem;
-	margin: 0 auto 8rem;
+	margin: 0 auto 10rem;
 	position: relative;
 }
 
@@ -259,11 +264,8 @@ nav ul li a.active:hover {
 footer {
 	max-width: 65rem;
 	margin: 5rem auto 1.5rem;
-}
-
-footer .content {
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 1.5rem 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 footer .copyright {
