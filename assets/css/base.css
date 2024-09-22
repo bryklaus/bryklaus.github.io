@@ -115,6 +115,16 @@ h5 {
 	font-weight: 600;
 }
 
+section:before {
+	content: "";
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5px;
+	width: 25px;
+}
+
 section.text {
 	column-count: 2;
 	column-gap: 3rem; 
