@@ -191,7 +191,8 @@ header .logo {
 	border: 0;
 	width: 100px;
 	height: 100px;
-	background-color: #000;
+	background: no-repeat center url("../../assets/img/me.jpg");
+	border-radius: 100%;
 	text-decoration: none;
 }
 
