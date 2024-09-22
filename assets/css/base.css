@@ -149,8 +149,6 @@ body {
 }
 
 p {
-	font-family: "Jost", serif;
-	line-height: 145%;
 	font-size: 120%;
 }
 
@@ -258,9 +256,7 @@ section.text h2,
 section.courses h2 {
 	font-size: 2rem !important;
 	font-weight: normal;
-	font-family: "Jost", serif;
 	line-height: 120%;
-	color: gray;
 }
 
 section.text p+h2,
@@ -395,7 +391,6 @@ footer .copyright {
 .projectholder a span.title {
 	font-size: 3rem;
 	font-weight: normal;
-	font-family: "Jost", serif;
 	line-height: 120%;
 }
 
@@ -411,7 +406,6 @@ footer .copyright {
 .projectholder a span.description {
 	font-size: 3rem;
 	font-weight: normal;
-	font-family: "Jost", serif;
 	line-height: 120%;
 	color: gray;
 }
@@ -503,7 +497,6 @@ ul.tablelist li p {
 }
 
 ul.tablelist li {
-	font-family: "Jost", serif;
 	line-height: 145%;
 	font-size: 120%;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -560,7 +553,6 @@ ul.tablelist b.label {
 
 ul.tablelist em.detail {
 	display: none;
-	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 145%;
 	font-style: normal;
