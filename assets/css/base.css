@@ -122,8 +122,9 @@ section:before {
 	top: 0;
 	left: 0;
 	height: 4px;
-	width: 100px;
+	width: 50px;
 	margin-bottom: 2rem;
+	display: block !important;
 }
 
 section.text {
