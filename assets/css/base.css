@@ -214,7 +214,8 @@ a,
 p a {
 	color: #000;
 	text-decoration: none;
-	border-bottom: 1px solid rgba(0, 0, 0, 0);
+	border-bottom: 1px solid #000 !important;
+	transition: opacity 0.1s;
 }
 
 a:hover,
