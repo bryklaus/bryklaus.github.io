@@ -74,6 +74,7 @@ main {
 }
 
 hr {
+	border: none;
 	height: 1px;
 	width: 50px;
 	border-top: 3px solid #000;
