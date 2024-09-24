@@ -154,11 +154,7 @@ section.courses h3 {
 	text-transform: uppercase;
 	letter-spacing: 0.1rem !important;
 	line-height: 145%;
-}
-
-section.text p + h3,
-section.courses p + h3 {
-	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
 }
 
 em,
