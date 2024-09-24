@@ -53,6 +53,8 @@ table {
 	text-rendering: optimizelegibility;
 }
 
+html { scroll-behavior: smooth; }
+
 body {
 	background-color: #f2e7e4;
 	color: #000;
