@@ -73,22 +73,6 @@ main {
 	max-width: 65rem;
 }
 
-hr {
-	border: none;
-	height: 1px;
-	width: 50px;
-	border-top: 3px solid #000;
-	margin: 0 0 4rem 0;
-}
-
-.line {
-	width: 100%;
-	height: 1px;
-	display: block;
-	border-top: 1px solid #000000;
-	margin-bottom: 1.5rem;
-}
-
 
 /*  =============================================
     TYPE
@@ -114,6 +98,12 @@ h4,
 h5 {
 	font-size: 1rem;
 	font-weight: 600;
+}
+
+section + section {
+	border-top: 1px solid #000;
+	margin-top: 5rem;
+	padding-top: 5rem;
 }
 
 section.text {
@@ -154,8 +144,16 @@ section.courses h2 {
 	margin-bottom: 2rem;
 }
 
-section.text p+h3,
-section.courses p+h3 {
+section.text h3,
+section.courses h3 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem !important;
+	line-height: 145%;
+}
+
+section.text p + h3,
+section.courses p + h3 {
 	margin-top: 1.5em;
 }
 
