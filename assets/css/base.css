@@ -118,6 +118,8 @@ section.text ul {
 	font-weight: 300;
 	line-height: 160%;
 	font-size: 100%;
+	text-align: justify;
+	text-justify: inter-word;
 	-webkit-hyphenate-limit-after: 4;
 	-webkit-hyphenate-limit-before: 2;
 	-webkit-hyphenate-limit-lines: 2;
