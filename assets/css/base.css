@@ -154,8 +154,8 @@ section.courses h2 {
 	margin-bottom: 2rem;
 }
 
-section.text p+h2,
-section.courses p+h2 {
+section.text p+h3,
+section.courses p+h3 {
 	margin-top: 1.5em;
 }
 
@@ -188,7 +188,7 @@ abbr,
 
 header {
 	max-width: 65rem;
-	margin: 5rem auto 20rem auto;
+	margin: 5rem auto 18rem auto;
 	position: relative;
 }
 
@@ -209,13 +209,13 @@ header .logo span {
 
 #blurb {
 	max-width: 65rem;
-	margin: 0 auto 10rem;
+	margin: 0 auto 8rem;
 	position: relative;
 }
 
 #blurb p {
 	max-width: 45rem;
-	font-size: 2rem;
+	font-size: 2.4rem;
 	font-weight: 500;
 	line-height: 140%;
 }
