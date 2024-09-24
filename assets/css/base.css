@@ -274,25 +274,16 @@ nav ul li a.active:hover {
 }
 
 /*  =============================================
-    FOOTER
-    ============================================= */
-
-footer {
-	max-width: 65rem;
-	margin: 5rem auto 1.5rem;
-	padding: 1.5rem 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-footer .copyright {
-	font-weight: 300;
-}
-
-/*  =============================================
     TEACHING
     ============================================= */
 
 .courses { margin: 0 auto; }
+
+.text + .courses {
+	margin-top: 2.5rem;
+	padding-top: 2.5rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .item + .item { margin-top: 3rem !important; }
 
@@ -404,6 +395,23 @@ ul.tablelist li b.label a:after {
 	padding-left: 0.25em;
 }
 
+	
+/*  =============================================
+    FOOTER
+    ============================================= */
+
+footer {
+	max-width: 65rem;
+	margin: 5rem auto 1.5rem;
+	padding: 1.5rem 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .copyright {
+	font-weight: 300;
+}
+
+	
 /*  =============================================
     MEDIA QUERIES
     ============================================= */
